@@ -10,13 +10,14 @@ INSERT INTO AGENCIA (nome) VALUES
 ('Zona Oeste');
 
 INSERT INTO CLIENTE (nome, agencia_id) VALUES
-('Joao',1),
-('Mariae',2),
-('Nicolau',2),
-('Zidane',3);
+('Joao Silva',1),
+('Maria Oliveira',2),
+('Nicolau Almeida',2),
+('Zidane Martins',3);
 
-INSERT INTO CONTA (id_Tipo_Conta, saldo, cliente_id) VALUES
-(1,0,1),
-(2,100,1),
-(1,52.5,2),
-(2,1000000,3);
+INSERT INTO CONTA (id_Tipo_Conta, saldo, cliente_id,is_active) VALUES
+(1,0,1,true),
+(2,100,1,true),
+(1,52.5,2,true),
+(1,0,2,true),
+(2,1000000,3,true);

@@ -6,7 +6,6 @@ import javax.persistence.*;
 @Entity
 @Getter
 @Setter
-@AllArgsConstructor
 public class TipoConta {
 
     @Id
@@ -14,7 +13,6 @@ public class TipoConta {
     private Long id;
 
     private String description;
-
 
 
 }
